@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/414.5c857d5c.chunk.css","mappings":"AAAA,WACE,YAAa,CACb,qBAAsB,CACtB,QAAS,CACT,YAAa,CACb,aACF","sources":["components/PostSide/PostSide.css"],"sourcesContent":[".post-side {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n  height: 100vh;\r\n  overflow: auto;\r\n}\r\n"],"names":[],"sourceRoot":""}

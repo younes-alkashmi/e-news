@@ -1,0 +1,30 @@
+.wel-container {
+  width: 50%;
+  background-color: var(--cardColor);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 25px 20px;
+}
+
+.icon-block {
+  color: white;
+  display: block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: var(--main);
+  margin: 40px auto;
+  font-size: 50px;
+}
+
+.wel-btn {
+  background-color: var(--bgColor);
+  font-size: 20px;
+  text-decoration: none;
+  width: 26%;
+  margin: auto;
+}
+
+.wel-btn:hover {
+  color: var(--main);
+}

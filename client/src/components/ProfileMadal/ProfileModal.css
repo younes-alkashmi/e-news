@@ -1,0 +1,36 @@
+.info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  direction: rtl;
+  justify-content: space-evenly;
+}
+
+.info-input {
+  border: none;
+  outline: none;
+  background-color: var(--inputColor);
+  border-radius: 8px;
+  padding: 15px;
+  direction: rtl;
+  font-size: 1rem;
+  width: 90%;
+}
+
+.pics-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pics-container > div {
+  font-size: 13px;
+}
+.pics-container > div > input {
+  margin: 5px;
+}
+
+.info-button {
+  width: 100px;
+  font-size: 1.1rem;
+}

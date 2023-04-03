@@ -1,0 +1,22 @@
+.home {
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 20rem auto 18rem;
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .profileside {
+    display: none;
+  }
+
+  .home {
+    grid-template-columns: 17rem auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .home {
+    grid-template-columns: 16rem auto 16rem;
+  }
+}

@@ -1,0 +1,14 @@
+.edit-btn {
+  font-size: 15px;
+  width: 7rem;
+  display: flex;
+  gap: 20px;
+}
+
+.edit-icon {
+  color: white;
+}
+
+.edit-btn:hover .edit-icon {
+  color: var(--main);
+}

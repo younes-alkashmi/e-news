@@ -1,0 +1,2 @@
+.following-card{align-items:center;border-radius:.75rem;font-size:13px}.followed,.following-card{display:flex;flex-direction:column;gap:1rem;width:100%}.followed{background-color:var(--cardColor);border-radius:1rem;padding:10px}.followed div{align-items:center;display:flex;flex-direction:row-reverse;gap:1rem;justify-content:flex-start}.followed .container{justify-content:space-between}.followed div img{border-radius:50%;height:3rem;width:3rem}.followed .container div span{font-weight:700}
+/*# sourceMappingURL=398.66406b5b.chunk.css.map*/

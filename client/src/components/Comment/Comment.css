@@ -1,0 +1,40 @@
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--inputColor);
+  padding: 1rem;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  gap: 1rem;
+  width: fit-content;
+  max-width: 84%;
+  min-width: 20%;
+}
+
+.comment-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.del-com {
+  cursor: pointer;
+  color: var(--main);
+}
+
+.comment-card .com-img {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+}
+
+.card-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-footer span {
+  font-weight: bold;
+}

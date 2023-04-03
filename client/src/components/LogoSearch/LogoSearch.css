@@ -1,0 +1,76 @@
+.search-container {
+  background-color: var(--inputColor);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .search-container {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.search-bar {
+  display: flex;
+  gap: 0.75rem;
+  background-color: var(--inputColor);
+  padding: 10px;
+  border-radius: 0.5rem;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  z-index: 3;
+  direction: rtl;
+  width: 100%;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--buttonBg);
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  background: var(--inputColor);
+}
+
+.search-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  background-color: #d8dada;
+  top: 2.45rem;
+  padding: 10px;
+  padding-top: 20px;
+  gap: 10px;
+  width: 100%;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.search-list > span {
+  background-color: var(--cardColor);
+  padding: 10px;
+}

@@ -1,0 +1,15 @@
+.trend {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.shares {
+  font-size: 13px;
+}

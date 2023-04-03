@@ -1,0 +1,2 @@
+.comment-card{background-color:var(--inputColor);border-radius:10px;display:flex;flex-direction:column;gap:1rem;max-width:84%;min-width:20%;padding:1rem 1rem 8px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.comment-card-header{align-items:center;display:flex;gap:10px;justify-content:space-between}.del-com{color:var(--main);cursor:pointer}.comment-card .com-img{border-radius:50%;height:2.2rem;width:2.2rem}.card-footer{align-items:center;display:flex;gap:10px}.card-footer span{font-weight:700}
+/*# sourceMappingURL=54.6ee1760e.chunk.css.map*/

@@ -1,0 +1,203 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  position: relative;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logoo {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .logoo {
+    display: block;
+  }
+  .logoo > h1 {
+    font-size: 2.2rem;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+}
+
+.logo > h1 {
+  font-size: 3rem;
+  background-image: var(--buttonBg);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.logo > h6 {
+  font-size: 0.85rem;
+}
+
+.form-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--cardColor);
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  border-radius: 1rem;
+  max-width: 30rem;
+  position: relative;
+}
+
+.form-side form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-side form > .name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-side form > .pass-contianer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .form-side form > .pass-contianer {
+    flex-direction: column;
+  }
+}
+
+.form-side form > div > input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  background-color: var(--inputColor);
+  border-radius: 8px;
+  padding: 20px;
+  direction: rtl;
+  font-size: 1rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sign-btn {
+  font-size: 1.2rem;
+}
+
+.button-container span {
+  align-self: flex-end;
+  direction: rtl;
+  font-size: 14px;
+}
+
+.log-in {
+  width: 25%;
+}
+
+.log-in form {
+  width: 100%;
+}
+.log-in form .pass-contianer {
+  flex-direction: column;
+}
+
+.confirm {
+  display: block;
+  color: red;
+  font-size: 14px;
+  align-self: flex-end;
+}
+
+.gender {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  padding-right: 5px;
+}
+
+.gender > div {
+  display: flex;
+  gap: 5px;
+  background-color: var(--inputColor);
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.gender > div input {
+  accent-color: var(--main);
+}
+
+.check {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  direction: rtl;
+  gap: 1rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.message {
+  padding: 15px 20px;
+  width: 15rem;
+  background-color: #eceded;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: -25px;
+}
+
+.error {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  direction: rtl;
+  width: 150px;
+  font-size: 13px;
+  right: 1rem;
+  background-color: #f62876;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+}
+
+.error::before {
+  content: "";
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid #f62876;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -15px;
+}
+
+.hide {
+  display: none;
+}

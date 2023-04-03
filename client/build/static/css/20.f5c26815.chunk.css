@@ -1,0 +1,2 @@
+.profile-page{grid-gap:2rem;display:grid;gap:2rem;grid-template-columns:23rem auto 21rem;position:relative}.profile-page>div{display:flex;flex-direction:column;gap:1rem}.profile-page .userheader{display:none}@media screen and (max-width:768px){.profile-page{grid-template-columns:auto}.profile-page>.userheader{display:flex;flex-direction:row;justify-content:space-between}.profile-page .iconside,.profile-page .infoside{display:none}}
+/*# sourceMappingURL=20.f5c26815.chunk.css.map*/
